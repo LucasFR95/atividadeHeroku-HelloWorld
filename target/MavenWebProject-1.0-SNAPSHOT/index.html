@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Demo HelloWorld (com JSP)</title>
+        <link rel="stylesheet" href="./styles/header.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <header>
+           <a href="http://www.ic.uff.br/index.php/pt/" target="_blank"><img class="logo" src="./images/logo-ic-b.png" alt="logo-ic-uff"/></a>
+            
+        </header>
+        <div class="container">
+
+        <div class="form-container">
+            <h1>Preencha o formulário:</h1>
+           <form action="sayhello.jsp" method="post">
+           <br>Idioma preferido: <input type="radio" name="lang" value="pt" checked> Português
+           <input type="radio" name="lang" value="en"> Inglês
+           <input type="radio" name="lang" value="fr"> Francês
+           <input type="radio" name="lang" value="de"> Alemão<br><br>
+           Nome: <input type="text" name="nome"/><br><br>
+           <input type="submit" value="Cumprimentar"/>
+        </form>
+        
+        </div>
+        
+       
+    </div>
+    <footer>
+        <p>Desenvolvimento de Aplicações Corporativas-2022.2</p>
+        <a href="https://www.linkedin.com/in/lucas-fernandes-ramos-4470aa10a/">Lucas Fernandes Ramos</a>
+    </footer>
+
+    </body>
+</html>
